@@ -1,0 +1,38 @@
+body{
+    background-image: url(./images/backgroundimage.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  nav>ul{
+    padding: 0%;
+    background: transparent;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  nav>ul>li{
+    display: block;
+    font-size: 1.3em;
+    padding: .4%;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+   background-color: ;
+
+  }
+  nav>ul>li>ul{
+    list-style: none;
+    text-decoration: none;
+  }
+  nav>ul>li>a{
+    color:white;
+  }
+  .dropdownmenu{
+    display: none;
+    color: white;
+  }

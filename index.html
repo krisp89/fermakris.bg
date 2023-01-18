@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
+  <!-- <link rel="stylesheet" href="/styles/main.css"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,47 @@
   <meta name="keywords" content="Органична ферма, органични зеленчуци, възстановително земеделие">
   <meta name="author" content="Крис Папинги">
     <title>Органична ферма "Крис"</title>
+    <style>
+      body{
+    background-image: url(./images/backgroundimage.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  nav>ul{
+    padding: 0%;
+    background: transparent;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  nav>ul>li{
+    display: block;
+    font-size: 1.3em;
+    padding: .4%;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+   background-color: ;
+
+  }
+  nav>ul>li>ul{
+    list-style: none;
+    text-decoration: none;
+  }
+  nav>ul>li>a{
+    color:white;
+  }
+  .dropdownmenu{
+    display: none;
+    color: white;
+  }
+    </style>
+   
 </head>
 <body>
 
@@ -17,13 +59,13 @@
     <li><a href="./index.html">Начало</a> </li>
      <li>За нас
         <!-- Drop-down menu with 2 options, first one linking to the agricultural practices page, second one linking to the organic agriculture page -->
-        <ul>
+        <ul class="dropdownmenu">
             <li><a href="./pages/agrpractices.html">Земеделски практики</a></li>
             <li><a href="./pages/orgagriculture.html">Органично земеделие</a></li>
         </ul> 
      </li>
     <li><a href="./pages/production.html">Продукция</a> </li>
-    <li><a href="./pages/contact.html">Връзка с нас</a> </li>
+    <li><a href="./">Връзка с нас</a> </li>
   </ul>
  </nav>
   <div>
